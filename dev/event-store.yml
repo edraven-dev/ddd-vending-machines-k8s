@@ -1,9 +1,4 @@
 apiVersion: v1
-kind: Namespace
-metadata:
-  name: vending-machines-dev
----
-apiVersion: v1
 kind: ConfigMap
 metadata:
   name: vending-machines-event-store-config
@@ -33,7 +28,7 @@ spec:
     spec:
       containers:
       - name: event-store
-        image: ghcr.io/arkadiuszkolodynski/ddd-vending-machines/event-store:bda0edf2e32f6af935c17a37c9393a6e16bda221
+        image: ghcr.io/arkadiuszkolodynski/ddd-vending-machines/event-store:c3c279e4c0da81077b35afa88f8eb9066af58402
         ports:
         - containerPort: 3000
         env:

@@ -1,9 +1,4 @@
 apiVersion: v1
-kind: Namespace
-metadata:
-  name: vending-machines
----
-apiVersion: v1
 kind: ConfigMap
 metadata:
   name: vending-machines-management-config
@@ -37,7 +32,7 @@ spec:
     spec:
       containers:
       - name: management
-        image: ghcr.io/arkadiuszkolodynski/ddd-vending-machines/management:latest
+        image: ghcr.io/arkadiuszkolodynski/ddd-vending-machines/management:7fcfce05df3913c8bfaed681fa7599eda522b88e
         ports:
         - containerPort: 3000
         env:
