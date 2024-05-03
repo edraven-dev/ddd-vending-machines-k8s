@@ -109,7 +109,7 @@ metadata:
   namespace: vending-machines
 spec:
   rules:
-    - host: "dev-vending-machines.edraven.dev"
+    - host: "vending-machines.edraven.dev"
       http:
         paths:
           - pathType: Prefix
