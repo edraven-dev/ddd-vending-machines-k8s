@@ -18,7 +18,7 @@ metadata:
   labels:
     app: atm
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: atm
