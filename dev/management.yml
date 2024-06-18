@@ -32,7 +32,7 @@ spec:
     spec:
       containers:
       - name: management
-        image: ghcr.io/arkadiuszkolodynski/ddd-vending-machines/management:9f8e543ba910f0ba488c4c3d73fb59bb5784abf5
+        image: ghcr.io/arkadiuszkolodynski/ddd-vending-machines/management:e2e48aa42abb519062c83a48bbf5309592d623c6
         ports:
         - containerPort: 3000
         env:
