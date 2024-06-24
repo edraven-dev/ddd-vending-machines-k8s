@@ -29,7 +29,7 @@ spec:
     spec:
       containers:
       - name: snack-machine
-        image: ghcr.io/arkadiuszkolodynski/ddd-vending-machines/snack-machine:e2e48aa42abb519062c83a48bbf5309592d623c6
+        image: ghcr.io/arkadiuszkolodynski/ddd-vending-machines/snack-machine:fa9397e0cce219962cb93b7e362532073ea00045
         ports:
         - containerPort: 3000
         env:
