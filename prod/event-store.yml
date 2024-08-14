@@ -28,7 +28,7 @@ spec:
     spec:
       containers:
       - name: event-store
-        image: ghcr.io/arkadiuszkolodynski/ddd-vending-machines/event-store:fa9397e0cce219962cb93b7e362532073ea00045
+        image: ghcr.io/arkadiuszkolodynski/ddd-vending-machines/event-store:13ba2f04d2bbca5c86a8876a23adc2364ca6d5c8
         ports:
         - containerPort: 3000
         env:
