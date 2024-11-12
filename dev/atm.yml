@@ -29,7 +29,7 @@ spec:
     spec:
       containers:
       - name: atm
-        image: ghcr.io/arkadiuszkolodynski/ddd-vending-machines/atm:13ba2f04d2bbca5c86a8876a23adc2364ca6d5c8
+        image: ghcr.io/arkadiuszkolodynski/ddd-vending-machines/atm:308426bb1c7f298c967848b976ba1d18dc8cd76b
         ports:
         - containerPort: 3000
         env:
