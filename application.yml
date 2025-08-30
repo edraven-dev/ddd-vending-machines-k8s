@@ -5,12 +5,12 @@ metadata:
   namespace: argocd
 spec:
   destination:
-    name: ''
+    name: ""
     namespace: vending-machines-dev
-    server: 'https://kubernetes.default.svc'
+    server: "https://kubernetes.default.svc"
   source:
     path: dev
-    repoURL: 'https://github.com/ArkadiuszKolodynski/ddd-vending-machines-k8s'
+    repoURL: "https://github.com/edraven-dev/ddd-vending-machines-k8s"
     targetRevision: HEAD
   sources: []
   project: default
@@ -28,12 +28,12 @@ metadata:
   namespace: argocd
 spec:
   destination:
-    name: ''
+    name: ""
     namespace: vending-machines
-    server: 'https://kubernetes.default.svc'
+    server: "https://kubernetes.default.svc"
   source:
     path: prod
-    repoURL: 'https://github.com/ArkadiuszKolodynski/ddd-vending-machines-k8s'
+    repoURL: "https://github.com/edraven-dev/ddd-vending-machines-k8s"
     targetRevision: HEAD
   sources: []
   project: default
