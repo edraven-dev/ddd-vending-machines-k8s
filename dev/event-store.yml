@@ -28,7 +28,7 @@ spec:
     spec:
       containers:
         - name: event-store
-          image: ghcr.io/edraven-dev/ddd-vending-machines/event-store:2e0a8afb4ee505cfd4780b6c13644afddfa3e978
+          image: ghcr.io/edraven-dev/ddd-vending-machines/event-store:08298db29e8dcf7da4b8603a469197b5c4df1311
           ports:
             - containerPort: 3000
           env:

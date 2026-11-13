@@ -29,7 +29,7 @@ spec:
     spec:
       containers:
         - name: snack-machine
-          image: ghcr.io/edraven-dev/ddd-vending-machines/snack-machine:5e5fae20beed8e0b0cb672c7e6c919e7fe3086d1
+          image: ghcr.io/edraven-dev/ddd-vending-machines/snack-machine:08298db29e8dcf7da4b8603a469197b5c4df1311
           ports:
             - containerPort: 3000
           env:
