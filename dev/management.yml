@@ -32,7 +32,7 @@ spec:
     spec:
       containers:
         - name: management
-          image: ghcr.io/edraven-dev/ddd-vending-machines/management:a89aaeda274b5f03fa771a772174c6f5c21d2e3d
+          image: ghcr.io/edraven-dev/ddd-vending-machines/management:3f90374282999cff6e7c7aa106a7c7cbb4b1393a
           ports:
             - containerPort: 3000
           env:
