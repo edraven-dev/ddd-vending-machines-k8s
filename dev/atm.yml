@@ -29,7 +29,7 @@ spec:
     spec:
       containers:
         - name: atm
-          image: ghcr.io/edraven-dev/ddd-vending-machines/atm:0a67c725cac2fa26b5ee9fbc96e9e4841e28415c
+          image: ghcr.io/edraven-dev/ddd-vending-machines/atm:5e5fae20beed8e0b0cb672c7e6c919e7fe3086d1
           ports:
             - containerPort: 3000
           env:
